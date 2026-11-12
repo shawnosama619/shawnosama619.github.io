@@ -602,6 +602,26 @@
     color: var(--primary-light);
     font-weight: 800;
   }
+  .test-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background: var(--navy);
+    color: #fff;
+  }
+  .test-summary::before { content: none; }
+  .test-summary-score {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+  .test-summary-text { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; }
+  .test-summary-link { color: #fff; font-weight: 600; text-decoration: underline; }
   .test-stars {
     color: #f5b400;
     font-size: 1rem;
@@ -1113,44 +1133,39 @@
     <div class="test-grid">
       <div class="test-card">
         <div class="test-stars">★ ★ ★ ★ ★</div>
-        <p class="test-quote">In nearly fifteen years of working with NBA Corporation, we have never had a single missed pickup. Their drivers are professional, courteous, and discreet — exactly what we need.</p>
+        <p class="test-quote">Had two different drivers for to and from my group's destination, but both were amazing. Helped us with bags, and showed up early, even, when picking us up, which gave us added time to get packed the way we needed given our somewhat unwieldy equipment. Thanks NBA!</p>
         <div class="test-author">
-          <div class="test-avatar">JE</div>
+          <div class="test-avatar">BN</div>
           <div>
-            <div class="test-name">Long-Term Embassy Client</div>
-            <div class="test-role">Diplomatic Transportation</div>
+            <div class="test-name">Bobby N.</div>
+            <div class="test-role">Google Review</div>
           </div>
         </div>
       </div>
       <div class="test-card">
         <div class="test-stars">★ ★ ★ ★ ★</div>
-        <p class="test-quote">When you're moving 40 students three hours away, you don't want surprises. NBA has been our go-to for years because they simply don't have any.</p>
+        <p class="test-quote">Outstanding service and very professional. Couldn't have asked for a better experience for sure. I definitely would recommend</p>
         <div class="test-author">
-          <div class="test-avatar">AD</div>
+          <div class="test-avatar">VT</div>
           <div>
-            <div class="test-name">Athletic Director</div>
-            <div class="test-role">Private School · Northern Virginia</div>
+            <div class="test-name">Vonta T.</div>
+            <div class="test-role">Google Review · Local Guide</div>
           </div>
         </div>
       </div>
-      <div class="test-card">
+      <a class="test-card test-summary" href="https://g.page/r/Cb2w78_9OyvmEBM" target="_blank" rel="noopener noreferrer">
+        <div class="test-summary-score">5.0</div>
         <div class="test-stars">★ ★ ★ ★ ★</div>
-        <p class="test-quote">A family-owned business that still picks up the phone. Fair pricing, spotless buses, and some of the best drivers in the DC area.</p>
-        <div class="test-author">
-          <div class="test-avatar">CT</div>
-          <div>
-            <div class="test-name">Corporate Travel Coordinator</div>
-            <div class="test-role">Fortune 500 Client</div>
-          </div>
-        </div>
-      </div>
+        <p class="test-summary-text">Rated 5 stars across all of our Google reviews</p>
+        <span class="test-summary-link">See all reviews on Google →</span>
+      </a>
     </div>
 
     <!-- Google Review CTA -->
     <div style="margin-top: 3.5rem; text-align: center;">
       <p style="color: var(--text-light); font-size: 0.97rem; margin-bottom: 1.25rem;">Had a great experience with NBA Corporation? We'd love to hear from you.</p>
       <a
-        href="https://g.page/r/YOUR_GOOGLE_REVIEW_LINK/review"
+        href="https://g.page/r/Cb2w78_9OyvmEBM/review"
         target="_blank"
         rel="noopener noreferrer"
         style="
@@ -1182,7 +1197,7 @@
       </a>
       <p style="margin-top: 1rem; font-size: 0.82rem; color: var(--text-light);">
         Already reviewed us?
-        <a href="https://g.page/r/YOUR_GOOGLE_REVIEW_LINK" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: underline;">See all our reviews →</a>
+        <a href="https://g.page/r/Cb2w78_9OyvmEBM" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: underline;">See all our reviews →</a>
       </p>
     </div>
 
